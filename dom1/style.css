@@ -1,9 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+
+button{
+    padding: 15px 40px;
+    border: none;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: rgb(66, 243, 228);
+    box-shadow: 1px 1px 5px black;
+    
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
 .main{
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
-    padding: 200px 200px;
+    padding:300px 200px;
 }
 
 .red{
