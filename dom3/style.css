@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(138, 182, 207);
+}
+
+.main-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key{
+    padding: 30px 30px;
+    margin: 10px;
+    border: none;
+    box-shadow: 1px 1px 3px black;
+}
