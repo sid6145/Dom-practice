@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(138, 182, 207);
 }
 
 .main-container{
@@ -10,11 +9,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(138, 182, 207);
 }
 
 .key{
     padding: 30px 30px;
     margin: 10px;
-    border: none;
-    box-shadow: 1px 1px 3px black;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+  
+}
+
+.key-press{
+    box-shadow: 3px 3px 10px black;
+    background-color: rgb(185, 208, 230);
 }
