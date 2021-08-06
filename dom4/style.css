@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.clock-face{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 50%;
+    
+}
+
+.hand{
+   width: 10%;
+   height: 5px;
+   background-color: black;
+   position: absolute;
+   top: 50%;
+   transform-origin: 100%;
+   transform: rotate(90deg);
+}
+
