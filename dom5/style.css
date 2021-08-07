@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.logo{
+    flex-grow: 1;
+    margin-left: 30px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item{
+    margin:0 50px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: white;
+}
