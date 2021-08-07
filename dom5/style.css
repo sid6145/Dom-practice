@@ -1,16 +1,17 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .navbar{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 20px;
+    min-height: 8vh;
     background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .logo{
@@ -23,11 +24,60 @@
     color: white;
 }
 
-.nav-item{
-    margin:0 50px;
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
 }
 
-.nav-item a{
+.nav-link a{
     text-decoration: none;
     color: white;
+}
+
+.burger{
+    display: none;
+}
+
+.burger div{
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: white;
+}
+
+@media screen and (max-width:768px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .burger div{
+        width: 25px;
+        height: 3px;
+        margin: 5px;
+        background-color: white;
+    }
+    
+
+    .nav-items{
+        position: absolute;
+        top: 8vh;
+        right: 0px;
+        min-height: 92vh;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translate(100%);
+    }
+
+    .burger-active{
+        transform: translate(0%);
+    }
 }
