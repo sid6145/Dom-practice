@@ -1,7 +1,8 @@
 let burger = document.querySelector('.burger')
+let nav = document.querySelector('.nav-items')
 
 burger.addEventListener('click', function(){
-    burger.classList.toggle('.burger-active')
+   nav.classList.toggle('nav-active')
 })
 
 
