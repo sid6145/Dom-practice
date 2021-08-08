@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif; ;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(53, 163, 226);
+    min-height: 8vh;
+
+}
+
+.logo{
+    color: rgb(231, 229, 229);
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    font-size: 20px;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+}
